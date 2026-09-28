@@ -1,3 +1,4 @@
+#Define the menu of restaurant
 menu = {
     "Pizza":40,
     "pasta":50,
@@ -6,10 +7,12 @@ menu = {
     "coffee":80,
     "momos":60,
     "dosa":90,
+    "chai":30,
+    "sandwich":70,
 }
-
+#Greet
 print("Welcome to PYTHON Restaurant")
-print("pizza: Rs40\npasta: Rs50\nburger: Rs60\nsalad: Rs70\ncoffee: Rs80\nmomos: Rs60\ndosa: Rs90")
+print("pizza: Rs40\npasta: Rs50\nburger: Rs60\nsalad: Rs70\ncoffee: Rs80\nmomos: Rs60\ndosa: Rs90\nchai: Rs30\nsandwich: Rs70")
 
 order_total = 0
 
